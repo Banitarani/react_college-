@@ -1,0 +1,43 @@
+/* Default styles for small screens */
+.tagline {
+    font-size: 28px; /* Smaller font size for smaller screens */
+  }
+  
+  .subtext {
+    font-size: 18px; /* Subtext is more compact */
+  }
+  
+  .button {
+    padding: 16px 32px; /* Adjust padding for smaller buttons */
+  }
+  
+  /* Styles for medium screens and above (768px) */
+  @media (min-width: 768px) {
+    .tagline {
+      font-size: 36px; /* Larger font size for tablets */
+    }
+  
+    .subtext {
+      font-size: 20px; /* Slightly larger subtext */
+    }
+  
+    .button {
+      padding: 20px 40px; /* Larger padding for buttons */
+    }
+  }
+  
+  /* Styles for large screens and above (1024px) */
+  @media (min-width: 1024px) {
+    .tagline {
+      font-size: 40px; /* Increase size for desktops */
+    }
+  
+    .subtext {
+      font-size: 22px; /* More spacious subtext for desktops */
+    }
+  
+    .button {
+      padding: 24px 48px; /* Bold buttons for larger screens */
+    }
+  }
+  

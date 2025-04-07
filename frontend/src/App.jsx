@@ -13,9 +13,9 @@ function App() {
   const { shop } = useContext(ShopContext);
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100 ">
       <Navbar />
-      <div className="container mx-auto p-4">
+      <div>
         <Routes>
           {/* Show Welcome page first */}
           <Route path="/" element={<Welcome />} />
